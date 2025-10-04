@@ -105,7 +105,7 @@ fn apply_shadow(base_color: Color, in_shadow: bool) -> Color {
 fn main() {
     let (mut rl, thread) = raylib::init()
         .size(1400, 900)
-        .title("Diorama Minecraft - Sunset con Sombras")
+        .title("Diorama Minecraft - Sunset con Sombras (Control de Mouse)")
         .build();
 
     // Cámara con mejor ángulo
@@ -175,7 +175,13 @@ fn main() {
         });
     }
 
+    // Variables para control de cámara con mouse
     let mut camera_angle = 0.0f32;
+    let mut camera_height = 50.0f32;
+    let mut camera_distance = 70.0f32;
+    let mut last_mouse_x = 0.0f32;
+    let mut last_mouse_y = 0.0f32;
+    let mut mouse_dragging = false;
 
     // Shader mejorado con sunset
     let mut shader = rl.load_shader_from_memory(
@@ -263,12 +269,44 @@ fn main() {
     let sunset_color_loc = shader.get_shader_location("sunsetColor");
 
     while !rl.window_should_close() {
-        // Rotación suave de cámara
-        camera_angle += 0.15;
-        let radius = 70.0;
-        camera.position.x = (terrain_size as f32 / 2.0) + radius * camera_angle.to_radians().cos();
-        camera.position.z = (terrain_size as f32 / 2.0) + radius * camera_angle.to_radians().sin();
-        camera.position.y = 50.0;
+        // Control de cámara con mouse
+        let mouse_pos = rl.get_mouse_position();
+        
+        // Click izquierdo para rotar
+        if rl.is_mouse_button_pressed(MouseButton::MOUSE_BUTTON_LEFT) {
+            mouse_dragging = true;
+            last_mouse_x = mouse_pos.x;
+            last_mouse_y = mouse_pos.y;
+        }
+        
+        if rl.is_mouse_button_released(MouseButton::MOUSE_BUTTON_LEFT) {
+            mouse_dragging = false;
+        }
+        
+        if mouse_dragging {
+            let delta_x = mouse_pos.x - last_mouse_x;
+            let delta_y = mouse_pos.y - last_mouse_y;
+            
+            // Rotar horizontalmente
+            camera_angle += delta_x * 0.3;
+            
+            // Ajustar altura de la cámara
+            camera_height = (camera_height - delta_y * 0.3).clamp(10.0, 80.0);
+            
+            last_mouse_x = mouse_pos.x;
+            last_mouse_y = mouse_pos.y;
+        }
+        
+        // Zoom con la rueda del mouse
+        let mouse_wheel = rl.get_mouse_wheel_move();
+        if mouse_wheel != 0.0 {
+            camera_distance = (camera_distance - mouse_wheel * 5.0).clamp(30.0, 120.0);
+        }
+        
+        // Actualizar posición de la cámara
+        camera.position.x = (terrain_size as f32 / 2.0) + camera_distance * camera_angle.to_radians().cos();
+        camera.position.z = (terrain_size as f32 / 2.0) + camera_distance * camera_angle.to_radians().sin();
+        camera.position.y = camera_height;
         camera.target = Vector3::new(terrain_size as f32 / 2.0, 0.0, terrain_size as f32 / 2.0);
 
         // Sol en ángulo de 40 grados (sunset)
@@ -464,6 +502,10 @@ fn main() {
         d.draw_text(&format!("Árboles: {} | Flores: {} | Rocas: {}", trees.len(), flowers.len(), rocks.len()), 10, 35, 16, Color::WHITE);
         d.draw_text("Luz Solar: 40° | Dirección: Suroeste", 10, 60, 16, Color::new(255, 200, 100, 255));
         d.draw_text("Efectos: Sunset + Ray-Traced Shadows + Rim Light", 10, 85, 16, Color::YELLOW);
-        d.draw_text("ESC para salir", 10, 110, 16, Color::WHITE);
+        d.draw_text("", 10, 110, 16, Color::WHITE);
+        d.draw_text("CONTROLES:", 10, 135, 18, Color::YELLOW);
+        d.draw_text("• Click Izquierdo + Arrastrar: Rotar cámara", 10, 160, 16, Color::WHITE);
+        d.draw_text("• Rueda del Mouse: Zoom in/out", 10, 185, 16, Color::WHITE);
+        d.draw_text("• ESC: Salir", 10, 210, 16, Color::WHITE);
     }
 }
