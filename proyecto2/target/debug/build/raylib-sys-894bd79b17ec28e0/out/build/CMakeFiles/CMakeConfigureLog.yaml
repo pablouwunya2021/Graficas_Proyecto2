@@ -1,0 +1,504 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+      Compilaci├│n iniciada a las 4/10/2025 02:07:55.
+      
+      Proyecto "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:00.95
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/4.0.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+      Compilaci├│n iniciada a las 4/10/2025 02:07:56.
+      
+      Proyecto "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:00.94
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/4.0.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-urx8nr"
+      binary: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-urx8nr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-urx8nr'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6f7bc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 4/10/2025 02:07:58.
+        
+        Proyecto "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urx8nr\\cmTC_6f7bc.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_6f7bc.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urx8nr\\Debug\\".
+          Creando directorio "cmTC_6f7bc.dir\\Debug\\cmTC_6f7bc.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_6f7bc.dir\\Debug\\cmTC_6f7bc.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_6f7bc.dir\\Debug\\cmTC_6f7bc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f7bc.dir\\Debug\\\\" /Fd"cmTC_6f7bc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urx8nr\\Debug\\cmTC_6f7bc.exe" /INCREMENTAL /ILK:"cmTC_6f7bc.dir\\Debug\\cmTC_6f7bc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-urx8nr/Debug/cmTC_6f7bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-urx8nr/Debug/cmTC_6f7bc.lib" /MACHINE:X64  /machine:x64 cmTC_6f7bc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6f7bc.vcxproj -> C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urx8nr\\Debug\\cmTC_6f7bc.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_6f7bc.dir\\Debug\\cmTC_6f7bc.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_6f7bc.dir\\Debug\\cmTC_6f7bc.tlog\\cmTC_6f7bc.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-urx8nr\\cmTC_6f7bc.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.89
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-5tkeie"
+      binary: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-5tkeie"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_CXX_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-5tkeie'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9bdf6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 4/10/2025 02:07:59.
+        
+        Proyecto "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5tkeie\\cmTC_9bdf6.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_9bdf6.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5tkeie\\Debug\\".
+          Creando directorio "cmTC_9bdf6.dir\\Debug\\cmTC_9bdf6.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_9bdf6.dir\\Debug\\cmTC_9bdf6.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_9bdf6.dir\\Debug\\cmTC_9bdf6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bdf6.dir\\Debug\\\\" /Fd"cmTC_9bdf6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5tkeie\\Debug\\cmTC_9bdf6.exe" /INCREMENTAL /ILK:"cmTC_9bdf6.dir\\Debug\\cmTC_9bdf6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-5tkeie/Debug/cmTC_9bdf6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-5tkeie/Debug/cmTC_9bdf6.lib" /MACHINE:X64  /machine:x64 cmTC_9bdf6.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_9bdf6.vcxproj -> C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5tkeie\\Debug\\cmTC_9bdf6.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_9bdf6.dir\\Debug\\cmTC_9bdf6.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_9bdf6.dir\\Debug\\cmTC_9bdf6.tlog\\cmTC_9bdf6.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5tkeie\\cmTC_9bdf6.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:00.90
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-03zlzi"
+      binary: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-03zlzi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Pablo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-03zlzi'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28904.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 4/10/2025 02:08:00.
+        
+        Proyecto "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03zlzi\\cmTC_28904.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_28904.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03zlzi\\Debug\\".
+          Creando directorio "cmTC_28904.dir\\Debug\\cmTC_28904.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_28904.dir\\Debug\\cmTC_28904.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_28904.dir\\Debug\\cmTC_28904.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28904.dir\\Debug\\\\" /Fd"cmTC_28904.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro -Werror=pointer-arith "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03zlzi\\src.c"
+        cl : l├¡nea de comandos  error D8021: argumento num├®rico no v├ílido '/Werror=pointer-arith' [C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03zlzi\\cmTC_28904.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03zlzi\\cmTC_28904.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03zlzi\\cmTC_28904.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          cl : l├¡nea de comandos  error D8021: argumento num├®rico no v├ílido '/Werror=pointer-arith' [C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-03zlzi\\cmTC_28904.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-9qmwas"
+      binary: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-9qmwas"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Pablo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/Pablo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-9qmwas'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec322.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 4/10/2025 02:08:01.
+        
+        Proyecto "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\cmTC_ec322.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_ec322.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\Debug\\".
+          Creando directorio "cmTC_ec322.dir\\Debug\\cmTC_ec322.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_ec322.dir\\Debug\\cmTC_ec322.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_ec322.dir\\Debug\\cmTC_ec322.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec322.dir\\Debug\\\\" /Fd"cmTC_ec322.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\src.c"
+          src.c
+        C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\cmTC_ec322.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\cmTC_ec322.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\cmTC_ec322.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9qmwas\\cmTC_ec322.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-cis2q2"
+      binary: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-cis2q2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Pablo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/Pablo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-cis2q2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_15473.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 4/10/2025 02:08:02.
+        
+        Proyecto "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cis2q2\\cmTC_15473.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_15473.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cis2q2\\Debug\\".
+          Creando directorio "cmTC_15473.dir\\Debug\\cmTC_15473.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_15473.dir\\Debug\\cmTC_15473.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_15473.dir\\Debug\\cmTC_15473.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15473.dir\\Debug\\\\" /Fd"cmTC_15473.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cis2q2\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cis2q2\\Debug\\cmTC_15473.exe" /INCREMENTAL /ILK:"cmTC_15473.dir\\Debug\\cmTC_15473.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-cis2q2/Debug/cmTC_15473.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-cis2q2/Debug/cmTC_15473.lib" /MACHINE:X64  /machine:x64 cmTC_15473.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cis2q2\\cmTC_15473.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cis2q2\\cmTC_15473.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cis2q2\\cmTC_15473.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cis2q2\\cmTC_15473.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.72
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-4awrwx"
+      binary: "C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-4awrwx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Pablo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/Pablo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-4awrwx'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3e1ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 4/10/2025 02:08:03.
+        
+        Proyecto "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4awrwx\\cmTC_3e1ec.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_3e1ec.dir\\Debug\\".
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4awrwx\\Debug\\".
+          Creando directorio "cmTC_3e1ec.dir\\Debug\\cmTC_3e1ec.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_3e1ec.dir\\Debug\\cmTC_3e1ec.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_3e1ec.dir\\Debug\\cmTC_3e1ec.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e1ec.dir\\Debug\\\\" /Fd"cmTC_3e1ec.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4awrwx\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4awrwx\\Debug\\cmTC_3e1ec.exe" /INCREMENTAL /ILK:"cmTC_3e1ec.dir\\Debug\\cmTC_3e1ec.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-4awrwx/Debug/cmTC_3e1ec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/build/CMakeFiles/CMakeScratch/TryCompile-4awrwx/Debug/cmTC_3e1ec.lib" /MACHINE:X64  /machine:x64 cmTC_3e1ec.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4awrwx\\cmTC_3e1ec.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4awrwx\\cmTC_3e1ec.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4awrwx\\cmTC_3e1ec.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\Pablo\\Documents\\Graficas_Proyecto2\\proyecto2\\target\\debug\\build\\raylib-sys-894bd79b17ec28e0\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4awrwx\\cmTC_3e1ec.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.73
+        
+      exitCode: 1
+...

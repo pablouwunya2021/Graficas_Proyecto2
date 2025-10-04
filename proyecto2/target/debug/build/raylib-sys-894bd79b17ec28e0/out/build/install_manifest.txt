@@ -1,0 +1,7 @@
+C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/lib/raylib.lib
+C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/include/raylib.h
+C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/include/rlgl.h
+C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/include/raymath.h
+C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/lib/pkgconfig/raylib.pc
+C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/Pablo/Documents/Graficas_Proyecto2/proyecto2/target/debug/build/raylib-sys-894bd79b17ec28e0/out/lib/cmake/raylib/raylib-config.cmake
